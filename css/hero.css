@@ -1,0 +1,114 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Bangers-Regular.ttf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(fonts/Cuprum-Regular.ttf);
+}
+
+html, body{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	margin: 0px;
+ 	font-family: mySecondFont;
+ 	
+}
+
+
+
+header{
+	background-color: black;
+	background-image: url('../img/pixelart2.gif');
+	background-size: 100px;
+	background-repeat: repeat;
+	padding: 0px 20px;
+	text-align: center;
+}
+
+h1{
+	font-family: myFirstFont;
+	font-size: 90px;
+	color: 	#ff9900;
+	padding-bottom: 30px;
+	text-shadow: 0 4px 10px black;
+}
+
+header img{
+	border-radius: 75px;
+}
+
+.about{
+	max-width: 900px;
+	margin: 0px auto;
+	font-size: 25px;
+	padding: 5 130 10 130;
+	text-align: center;
+}
+
+h2{
+	margin: 20px;
+	font-size: 40px;
+	font-family: myFirstFont 
+}
+
+h3{
+	margin: 0;
+	font-size: 50px;
+	font-family: myFirstFont
+
+	}
+
+footer{
+	background-color: #919191;
+	margin: 0;
+	text-align: center;
+	padding: 10;
+}
+
+.strongestmoves{
+	max-width: 900;
+	color: black;
+	margin: 0 auto;
+	padding: 20;
+	text-align: center;
+}
+
+
+.strongestmoves h3{
+	margin: 0;
+	font-family: myFirstFont;
+	font-size: 50;
+}
+
+.prevforms{
+	max-width: 1700px;
+	text-align: center;
+	margin: 0px;
+	padding: 20px 150px;
+}
+.prevforms img{
+	max-width: 250px;
+	border-radius: 125px;
+}
+
+.prevforms ul li{
+	font-size: 30px;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+footer ul{
+	list-style: none;
+
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+/*	<div class="about">
+		<h3>Description</h3>
+		<p>Sceptile is a Grass type pokemon which is native to the Hoenn region. It is the final evolution of one of the three starters that any trainer wishing to start their pokemon journey has the option to pick. It is held in massive reverence for its agility and attack which wehn combined enables it to execute a multitude of moves </p>
+	</div>
+*/
